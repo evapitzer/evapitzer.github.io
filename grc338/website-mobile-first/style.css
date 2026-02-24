@@ -22,7 +22,7 @@ div.container {
 
 
 main { 
-	padding: 1em 1em 1em;
+	padding: 1em 1em 5em;
 	}
 
 img {
@@ -38,7 +38,7 @@ header {
 	}
 
 h1 {
-	width: ;
+	width:10em;
 	}
 
 h2, h3, h4 {
@@ -47,12 +47,16 @@ h2, h3, h4 {
 
 h2 {
 	font-size: 2em;
-	margin:.5em .1em;
+	margin:.5em 0em;
 	}
 	
 h3 {
 	font-size:1.5em;
-	margin:1em .2em;
+	margin:.8em 0em .5em;
+}
+
+h4{
+	margin:1em 0em 0em;
 }
 
 
@@ -69,11 +73,11 @@ ul li 	{
 }
 
 figure {
-	margin-bottom: ____;
+	margin-bottom:0em;
 }
 
 main.menu ul {
-		margin:2em .2em;
+		margin:0em 0em;
 }	
 
 main.menu ul li {
@@ -84,7 +88,7 @@ main.menu ul li {
 }	
 
 p {
-	margin:.5em 0em 0em;
+	margin:.5em 0em 1em;
 	}
 	
 p.description {
@@ -97,19 +101,19 @@ p.price {
 	grid-column:2/3;
 	color:rgb(255, 0, 0);
 	text-align:right;
-	margin:0em .2em 0em 0em;
+	margin:1em 0em;
 	}
 	
 nav ul li {
 	text-transform:uppercase;
 	font-weight:bold;
-	margin-bottom: 1em;
+	margin-bottom:1em;
 	}
 	
 nav ul li a {
 	color:rgb(255, 255, 0);
 	background-color: rgb(0, 0, 255);
-	padding:.3em;
+	padding:.3em .5em .1em;
 	}
 	
 
@@ -117,7 +121,7 @@ p.slogan {
 	font-size: 3em;
 	font-family: serif;
 	font-style:italic;
-	margin: 1em .5em;
+	margin: 1em 0em 2em;
 	color: white;	
 	}
 	
